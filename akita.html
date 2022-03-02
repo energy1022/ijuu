@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>IJUU</title>
+        <meta name="description" content="歴史好きが移住を目指すサイト">
+    
+    <!-- CSS -->
+        <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">        
+    </head>
+
+    <body>
+        <!-- ヘッダー -->
+        <header class="page-header wrapper">
+            <h1><a href="index.html"><img class="logo" src="images/IJUU.svg" alt="IJUU"></a></h1>
+            <nav>
+                <ul class="main-nav">
+                    <li><a href="#">イベント</a></li>
+                    <li><a href="#">地域の魅力</a></li>
+                    <li><a href="#">住まい</a></li>
+                    <li><a href="#">求人</a></li>
+                    <li><a href="#">ログイン</a></li>
+                    <li><a href="#">新規登録</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="contents wrapper">
+            <!-- 紹介文 -->
+            <article>
+                <header class="post-info">
+                    <h2 class="post-title">秋田県の歴史と魅力</h2>
+                </header>
+                <h2>秋田県の歴史</h2>
+                <img src="images/kubota-jou.jpg" alt="画像">
+                <p>
+                秋田県は、かつでの令制国での出羽国と陸奥国の各一部からなる県です。
+                「秋田」の名前の由来は、飛鳥時代の658年(斉明天皇4年)に、阿部比羅夫の日本海遠征において、この地を訪れ、
+                地名を「齶田（あぎた）」と報告したことから始まりました。
+                「齶田（あぎた）」とは、顎に似た地形からつけられたものだといわれていて、
+                これは、雄物川河口部の古地形のことを示している可能性があります。
+
+                その後に、734年(天平5年)に庄内地方にあったとされる出羽柵が高清水の丘に移し置かれ、
+                後に「秋田城」と呼ばれるようになり、「秋田」の表記で定着するようにもなりました。
+                また、中世後期には、日本最古の海洋法規集「廻船式目（廻船大法）」には三律七湊の一つとして、
+                「秋田湊」と呼ばれ重要な湊の一つに数えられました。
+                </p>
+                <h2>秋田県の魅力</h2>
+                <img src="images/tazawako.jpg" alt="画像">
+                <p>
+                秋田県は、豊かな自然環境に恵まれ観光地や温泉も多く、様々な郷土芸能や祭りなどの行事もあり、魅力あふれた地域です。
+                住環境の面では、住宅面積の広さや持ち家比率の高さなどで、全国トップレベルの水準となっています。
+                生活を取り巻く環境では、物価の安さ、充実した公園の配置、犯罪・交通事故の少なさなど、安全・安心で暮らしやすい環境にあります。
+                また、子供の教育面では、全国学力テストで常にトップクラスの成績を残しているほか、体格・体力に優れた子供
+                が多く、子供の将来を安心して託せる環境にあります。
+                その他にも、土地面では経費負担の低さといったことは、秋田での立地の魅力といえます。
+                </p>
+            </article>
+
+            <!-- サイドバー -->
+            <aside>
+                <h3 class="sub-title">イベント開催地</h3>
+                <ul class="sub-menu">
+                    <li><a href="#">北海道</a></li>
+                    <li>
+                        <form name="form1">
+                            <select name="select1" onChange="if(document.form1.select1.value){location.href=document.form1.select1.value;}">
+                            <option value="#">東北</option>
+                            <option value="#">青森</option>
+                            <option value="#">岩手</option>
+                            <option value="#">宮城</option>
+                            <option value="#">秋田</option>
+                            <option value="#">山形</option>
+                            <option value="#">福島</option>
+                            </select>
+                        </form>
+                    </li>
+                    <li>
+                        <form name="form2">
+                            <select name="select2" onChange="if(document.form2.select2.value){location.href=document.form2.select2.value;}">
+                            <option value="#">関東</option>
+                            <option value="#">茨城</option>
+                            <option value="#">栃木</option>
+                            <option value="#">群馬</option>
+                            <option value="#">埼玉</option>
+                            <option value="#">千葉</option>
+                            <option value="#">東京</option>
+                            <option value="#">神奈川</option>
+                            </select>
+                        </form>
+                    </li>
+                    <li>
+                        <form name="form3">
+                            <select name="select3" onChange="if(document.form3.select3.value){location.href=document.form3.select3.value;}">
+                            <option value="#">中部</option>
+                            <option value="#">新潟</option>
+                            <option value="#">富山</option>
+                            <option value="#">石川</option>
+                            <option value="#">福井</option>
+                            <option value="#">山梨</option>
+                            <option value="#">長野</option>
+                            <option value="#">岐阜</option>
+                            <option value="#">静岡</option>
+                            <option value="#">愛知</option>
+                            </select>
+                        </form>
+                    </li>
+                    <li>
+                        <form name="form4">
+                            <select name="select4" onChange="if(document.form4.select4.value){location.href=document.form4.select4.value;}">
+                            <option value="#">近畿</option>
+                            <option value="#">三重</option>
+                            <option value="#">滋賀</option>
+                            <option value="#">京都</option>
+                            <option value="#">大阪</option>
+                            <option value="#">兵庫</option>
+                            <option value="#">奈良</option>
+                            <option value="#">和歌山</option>
+                            </select>
+                        </form>
+                    </li>
+                    <li>
+                        <form name="form5">
+                            <select name="select5" onChange="if(document.form5.select5.value){location.href=document.form5.select5.value;}">
+                            <option value="#">中国・四国</option>
+                            <option value="#">鳥取</option>
+                            <option value="#">島根</option>
+                            <option value="#">岡山</option>
+                            <option value="#">広島</option>
+                            <option value="#">山口</option>
+                            <option value="#">徳島</option>
+                            <option value="#">香川</option>
+                            <option value="#">愛媛</option>
+                            <option value="#">高知</option>
+                            </select>
+                        </form>
+                    </li>
+                    <li>
+                        <form name="form5">
+                            <select name="select5" onChange="if(document.form5.select5.value){location.href=document.form5.select5.value;}">
+                            <option value="#">九州</option>
+                            <option value="#">福岡</option>
+                            <option value="#">佐賀</option>
+                            <option value="#">長崎</option>
+                            <option value="#">熊本</option>
+                            <option value="#">大分</option>
+                            <option value="#">宮崎</option>
+                            <option value="#">鹿児島</option>
+                            <option value="#">沖縄</option>
+                            </select>
+                        </form>
+                    </li>
+                </ul>
+            </aside>
+        </div><!-- /.contents -->
+
+        <footer>
+            <div class="wrapper">
+                <p><small>&copy; 2022 IJUU</small></p>
+            </div>
+        </footer>
+    </body>
+</html>
